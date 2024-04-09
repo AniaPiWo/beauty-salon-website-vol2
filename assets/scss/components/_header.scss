@@ -83,12 +83,27 @@
   }
 }
 
-/* Show menu */
 .show-menu {
   left: 0;
 }
 
-/* Background header */
+.blur-header::after {
+  content: "";
+  position: absolute;
+  width: 1000%;
+  height: 100%;
+  background-color: hsla(0, 0%, 6%, 0.2);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px); // For safari
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
 .bg-header {
   box-shadow: 0 2px 16px hsla(0, 0%, 0%, 0.1);
+}
+
+.active-link {
+  color: var(--first-color);
 }

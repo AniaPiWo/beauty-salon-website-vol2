@@ -118,15 +118,16 @@
     }
     &__img-1,
     &__img-2 {
-      width: 420px;
+      width: 350px;
+      z-index: 100;
     }
     &__img-1 {
-      bottom: 14rem;
+      bottom: 6rem;
       left: -3rem;
       transform: translateX(-25rem) rotate(60deg);
     }
     &__img-2 {
-      bottom: 6rem;
+      bottom: 4rem;
       right: -3rem;
       transform: translateX(25rem) rotate(60deg);
     }

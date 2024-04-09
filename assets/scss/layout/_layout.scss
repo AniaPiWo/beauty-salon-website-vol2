@@ -1,9 +1,24 @@
-/*=============== REUSABLE CSS CLASSES ===============*/
-.container{
-   max-width: 1120px;
-   margin-inline: 1.5rem;
+.container {
+  max-width: 1120px;
+  margin-inline: 1.5rem;
 }
 
-.main{
-   overflow: hidden;
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.section {
+  padding-block: 5rem 1rem;
+
+  &__title {
+    font-size: var(--biggest-font-size);
+    font-family: var(--second-font);
+    text-align: center;
+    margin-block: 0.5rem;
+  }
+}
+
+.main {
+  overflow: hidden;
 }
